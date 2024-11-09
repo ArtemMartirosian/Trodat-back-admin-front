@@ -1,0 +1,29 @@
+@import url('https://fonts.cdnfonts.com/css/caros-soft');
+
+:root {
+  --white: #ffffff;
+  --grey: #ececec;
+  --red: #ee575c;
+  --red-2: #ee272e;
+  --text: #2F2F2F;
+  --text-2: #515151;
+  --pagonation-bg: #d25358;
+  --green: #45B26B;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "caros-soft", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

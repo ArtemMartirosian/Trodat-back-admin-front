@@ -1,0 +1,163 @@
+.registerdUser {
+
+
+  width: 100%;
+
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+  }
+
+  &__accountBox {
+    width: 85%;
+  }
+  &__unRegHeaderText {
+    font-family: Caros Soft;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 0.7px solid #B2B2B2;
+
+  }
+
+  &__accountContainer {
+    width: 85%;
+    margin-top: 3vw;
+    padding-block: 3vw;
+  }
+  &__userIcon {
+    width: 100%;
+    font-size: 80px;
+    color: #686868;
+    display: flex;
+    justify-content: center;
+  }
+  &__acountRegBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  &__accountRegBox button{
+    width: 311px;
+    height: 43px;
+    gap: 20px;
+    border: 1px solid #EE575C;
+    color: #EE575C;
+    cursor: pointer;
+
+  }
+  &__accountInfo {
+    width: 351px;
+    height: 350px;
+    border: 1px solid var(--grey, #ECECEC);
+    padding: 20px;
+  }
+  &__userPhotoBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__userPhoto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    //border: 1px solid #969393;
+
+  }
+  &__uploadImg{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 50;
+    right: 0;
+    bottom: 0;
+    border: 3px solid white;
+    background: #EE575C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+  }
+  &__userPhoto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__userData{
+    margin-top: 20px;
+  }
+  &__userIcon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__userInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #868686;
+    margin-top: 30px;
+
+
+  }
+  &__userInfo h6{
+    font-family: Caros Soft;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12.6px;
+    text-align: left;
+
+  }
+
+  &__userData button{
+    width: 311px;
+    height: 43px;
+    gap: 20px;
+    border: 1px solid #EE575C;
+    color: #EE575C;
+    cursor: pointer;
+    margin-top: 20px;
+
+  }
+
+  &__customerChanges{
+    margin-top: 25px;
+  }
+  &__changes{
+    font-family: Caros Soft;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12.6px;
+    display: flex;
+    gap: 10px;
+    color: #222222;
+    margin-top: 15px;
+    cursor: pointer;
+
+  }
+
+
+}

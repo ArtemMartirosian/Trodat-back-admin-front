@@ -1,0 +1,11 @@
+.contacts{
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    margin: 0;
+  }
+}

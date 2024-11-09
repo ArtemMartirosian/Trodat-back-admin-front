@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__menu {
+    display: flex;
+    gap: 44px;
+
+    & a {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14.78px;
+      color: var(--text);
+      text-decoration: none;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: 20px;
+  }
+
+}

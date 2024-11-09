@@ -1,0 +1,47 @@
+.standart {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+  padding: 20px 0;
+
+  &__outlet-wrapper {
+    width: 100%;
+  }
+
+  &__standartContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  &__standartTitle {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59.14px;
+    letter-spacing: -0.02em;
+    margin-left: 100px  ;
+  }
+  &__standartTitle > span {
+    color: var(--red-2);
+  }
+  &__standartContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__standartContent > img {
+    flex: 2;
+  }
+
+  &__standartText {
+    flex: 1;
+    font-family: Caros Soft;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: left;
+    color: #5c5c5c;
+  }
+}

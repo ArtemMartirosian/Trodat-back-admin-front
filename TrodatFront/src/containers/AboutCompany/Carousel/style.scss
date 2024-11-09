@@ -1,0 +1,35 @@
+.sliderCarousel {
+  //   background-color: red;
+
+  &__slide img {
+    width: 100%;
+    height: auto;
+    max-height: 557px;
+  }
+
+  .control-dots {
+    .dot {
+      width: 10px;
+      height: 10px;
+      opacity: 1;
+      background: #fff;
+      box-shadow: none;
+      border: 1px solid #000000;
+      &.selected {
+        background: black;
+      }
+    }
+  }
+
+  .thumbs-wrapper {
+    margin: 20px 0;
+
+    .thumb {
+        display: none;
+      border: 2px solid transparent;
+      &.selected {
+        border: 2px solid #000;
+      }
+    }
+  }
+}

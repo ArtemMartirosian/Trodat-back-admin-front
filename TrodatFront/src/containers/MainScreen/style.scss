@@ -1,0 +1,137 @@
+.mainScreen {
+  width: 100%;
+  padding: 20px 100px;
+
+
+  &__outlet-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__mainScreenContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 144px;
+  }
+  &__mainScreenContainer > div {
+    flex: 1;
+  }
+  &__mainScreenContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 36px;
+  }
+  &__TitleText {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+  }
+  &__mainScreenTitle {
+    font-family: Caros Soft;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+  }
+  &__mainScreenText {
+    width: 100%;
+    max-width: 395px;
+    font-family: Caros Soft;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  &__mainScreenText > span {
+    font-weight: 600;
+  }
+  &__mainScreenBtn {
+    background: var(--red-2);
+    border-radius: 100px;
+    padding: 11px 34px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.71px;
+
+  }
+
+  &__ecoLogo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  // &__ecoLogo > img {
+  //   flex: 1;
+  // }
+  &__ecoText {
+    font-family: Caros Soft;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.61px;
+    width: 100%;
+    max-width: 272px;
+  }
+  &__ecoText > span {
+    color: var(--Text-2);
+    font-weight: 700;
+  }
+  &__mainScreenPagination {
+    position: relative;
+    background-color: var(--pagonation-bg);
+    height: 100vh;
+    width: 100%;
+    max-height: 153px;
+    margin-top: 50px;
+  }
+  &__absolutePagination {
+    position: absolute;
+    padding: 20px 100px 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+  }
+  &__paginationWrapped {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex: 1.5;
+  }
+  &__paginationNum {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+
+  }
+  &__paginationArrows {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  &__paginationCards {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+  }
+}

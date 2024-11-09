@@ -1,0 +1,12 @@
+.news {
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__lists {
+      display: flex;
+      flex-wrap: wrap;
+      //width: 90vw;
+    }
+}

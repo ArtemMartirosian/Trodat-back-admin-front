@@ -1,0 +1,90 @@
+.products {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  &__description-column {
+    min-width: 230px !important;
+    text-align: center;
+  }
+  &__table{
+    padding-inline: 10px;
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  &__tableData{
+    min-width: 120px !important;
+    max-width: 120px !important;
+    padding: 0 !important;
+    text-align: center;
+    overflow: hidden;
+
+  }
+
+  &__tableDataColors{
+    //padding: 0 !important;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    margin-top: 5px;
+    justify-items: center;
+
+
+  }
+
+  &__tableDataText{
+    min-width: 113px !important;
+    max-width: 113px !important;
+    padding: 0 !important;
+    text-align: center;
+
+  }
+  &__updateDelete{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  &__productColors{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 5px;
+    border: 1px solid black;
+  }
+
+  &__image-container {
+    border-radius: 10px;
+    height: 215px;
+    width: 300px;
+  }
+
+  &__image-container img {
+    height: 100%;
+    width: 100%;
+  }
+
+  &__image {
+    object-fit: cover;
+  }
+
+  &__productsAdd{
+    display: flex;
+    gap: 10px;
+  }
+
+}
+.ant-table-expanded-row-fixed{
+  display: none !important;
+}
+.ant-table-placeholder{
+  display: none !important;
+}
